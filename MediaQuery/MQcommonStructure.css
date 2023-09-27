@@ -1,0 +1,101 @@
+@media screen and (max-width:600.5px)
+{
+    .Layer, aside 
+    {
+        padding: 0.5em;
+    }
+}
+
+@media screen and (max-width:500.5px) 
+{
+    #headerPanel section 
+    {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width:383.5px) 
+{
+    h2 
+    {
+        font-size: 1.2em;
+    }
+
+    h3 
+    {
+        font-size: 0.95em;
+    }
+
+    .content p 
+    {
+        font-size: 0.9em;   
+    }
+}
+
+@media screen and (max-width:354.5px) 
+{
+    h1 
+    {
+        font-size: 1.4em;
+    }
+
+    h2 
+    {
+        font-size: 1.1em;
+    }
+
+    h3 
+    {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:324.5px) 
+{
+    h1 
+    {
+        font-size: 1.3em;
+    }
+
+    h2 
+    {
+        font-size: 1em;
+    }
+
+    h3 
+    {
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width:442.5px) 
+{
+    h2 
+    {
+        font-size: 1.3em;
+    }
+
+    h3 
+    {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:295.5px) 
+{
+    h1 
+    {
+        font-size: 1.2em;
+    }
+
+    h2 
+    {
+        font-size: 0.9em;
+    }
+
+    h3 
+    {
+        font-size: 0.8em;
+    }
+
+}

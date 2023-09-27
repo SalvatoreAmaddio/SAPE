@@ -1,0 +1,47 @@
+/* ANIMATION*/
+@keyframes slidingKeyFrame 
+{
+    0% {left: 100%}
+    50% {left: 0%;}
+    60% {left: 0%;}
+    70% {left: 0%;}
+    100% {left: -100%;}
+}
+
+@keyframes opacityKeyFrame
+{
+    0% {opacity: 0}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+  
+  .TextCarouselContainer {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .TextCarousel 
+  {
+    position: relative;  
+  }
+
+  .opacityAnimation
+  {
+    animation-name: opacityKeyFrame;    
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+
+  }
+
+  .slidingAnimation 
+  {
+    animation-name: slidingKeyFrame;
+    animation-duration: inherit;
+    animation-iteration-count: inherit;
+    animation-timing-function: inherit;
+  }

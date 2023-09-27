@@ -1,0 +1,53 @@
+/*HEADER*/
+#headerPanel 
+{
+    background-color: var(--mainColor);
+    color: white;
+}
+
+#headerPanel section 
+{
+    padding: 2.5em 1em;
+}
+
+#HeaderTitle 
+{
+    text-align: center;
+}
+
+#HeaderTitle h6 
+{
+    margin-top: 0.5em;
+}
+
+#HeaderTitle img 
+{
+    max-width: 8rem;
+}
+
+/*ASIDE*/
+.Layer, aside 
+{
+    border: 1px solid black;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.Layer 
+{
+    background-color: var(--mainColor);
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+#footer 
+{
+    clear: both;
+    font-size: 0.8em;
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    background-color: var(--mainColor);
+}

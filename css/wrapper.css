@@ -1,0 +1,70 @@
+:root
+{
+    --mainColor:#00939D;
+    --mainColorSibl:#00c3d0;
+    --backColor: #edf1ff;
+    --navbarbackground: #0d6b71;
+    --navbarhover:#00c3d0;
+    --goldColor:rgba(255,215,0,1);
+}
+
+* 
+{
+    box-sizing: border-box;
+    padding: 0em;
+    margin: 0em;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--backColor);
+}
+
+#Wrapper 
+{
+    overflow: hidden;
+    background-color: inherit;
+}
+
+.ResponsiveImg 
+{
+    overflow: hidden;
+    width: 20vw;
+    height: 20vw;
+}
+
+.ResponsiveImg img 
+{
+    width: inherit;
+    height: inherit;
+    display: block;
+    margin: 0 auto;
+}
+
+.ImgRoundBorder 
+{
+    border: 1px solid black;
+    overflow: hidden;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+.ImgRoundBorder  img
+{
+    width: inherit;
+    height: inherit;
+    display: block;
+    margin: 0 auto;
+    /*padding: 0.5em;*/
+    border-radius: 50%;
+}
+
+.verticallyCentered
+{
+    width: 100%;
+    left: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
